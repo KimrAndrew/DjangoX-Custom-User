@@ -1,4 +1,4 @@
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, ListView, CreateView, DetailView, DeleteView, UpdateView
 
 
 class HomePageView(TemplateView):
@@ -7,3 +7,4 @@ class HomePageView(TemplateView):
 
 class AboutPageView(TemplateView):
     template_name = 'pages/about.html'
+
