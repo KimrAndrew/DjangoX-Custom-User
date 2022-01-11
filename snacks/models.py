@@ -11,4 +11,4 @@ class Snack(models.Model):
         return self.title
     
     def get_absolute_url(self):
-        return reverse_lazy('snack_detail',args=[str(self.id)])
+        return reverse_lazy('snack-detail',args=[str(self.id)])
