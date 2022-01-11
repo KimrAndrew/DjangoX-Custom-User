@@ -1,4 +1,4 @@
-from django.views.generic import TemplateView, ListView, CreateView, DetailView, DeleteView, UpdateView
+from django.views.generic import TemplateView
 
 
 class HomePageView(TemplateView):
